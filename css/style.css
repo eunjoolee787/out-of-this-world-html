@@ -155,14 +155,14 @@ p{
 section#main_content{
 /*  position: relative;*/
 /*  top: 30px;*/
-  border: 20px solid yellow;
+/*  border: 20px solid yellow;*/
   float: left;
   width: 60%;
   box-sizing: border-box;
 }
 
 aside#side_content{
- border: 20px solid yellow;
+/* border: 20px solid yellow;*/
  float: right; 
  width: 40%;
  box-sizing: border-box; 
@@ -177,6 +177,44 @@ aside#side_content{
   font-size: 25px;
 }
 
+/* MOBILE ONLY */
+@media only screen and (max-width: 480px){
+  section#main_content{
+    float: left;
+    width: 60%;
+  }
+
+  aside#side_content{
+   float: right; 
+   width: 40%;
+  }
+}
+
+/* TABLET ONLY */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  section#main_content{
+    float: left;
+    width: 60%;
+  }
+
+  aside#side_content{
+   float: right; 
+   width: 40%;
+  }
+}
+
+/* DESKTOP ONLY */
+@media only screen and (min-width: 769px){
+  section#main_content{
+    float: left;
+    width: 60%;
+  }
+
+  aside#side_content{
+   float: right; 
+   width: 40%;
+  }
+}
 
 
 

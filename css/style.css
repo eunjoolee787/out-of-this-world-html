@@ -42,6 +42,12 @@ table {
   border-spacing: 0;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 h1{
   font-size: 100px;
@@ -62,13 +68,12 @@ h1:hover{
 }
 
 header > #sub_heading{
-  padding: 35px;
   font-size: 25px;
   text-align: center;
 }
 
 a:hover{
-  background-color: green;
+  background-color: green;  
 }
 
 body{
@@ -86,7 +91,7 @@ nav ul#main_nav li.nav_item,
 nav ul#main_nav li.active a{
   color: white;
   display: inline;
-  padding: 5px;
+
 }
 
 nav > #main_nav > li.nav_item > a{
@@ -97,15 +102,17 @@ nav > #main_nav > li.nav_item > a{
 nav ul#main_nav > li > ul#sub_nav{
  position: relative;
  left: 182px;
+
 }
 
 nav ul#main_nav > li > ul#sub_nav:hover li{
   display: inline;
+
 }
 
 nav > ul#main_nav > li.nav_item.has_dropdown > ul#sub_nav{
   display: none;
-  color: white;
+  color: white;  
 }
 
 
@@ -128,22 +135,43 @@ nav > ul#main_nav > li.nav_item.has_dropdown:hover > ul#sub_nav li{
 nav > ul#main_nav li ul a{
   color: white;
   text-decoration: none;
+ 
 }
 
 p{
-  padding: 5px;
   color: white;
 }
 
 .section_title{
   font-size: 25px;
+
 }
 
-section#main_content,footer,#side_content{
+#float_things{
+  max-width: 80%;
+  margin: auto;
+}
+
+section#main_content{
+/*  position: relative;*/
+/*  top: 30px;*/
+  border: 20px solid yellow;
+  float: left;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+aside#side_content{
+ border: 20px solid yellow;
+ float: right; 
+ width: 40%;
+ box-sizing: border-box; 
+}
+
+/*footer,#side_content{
   position: relative;
   top: 30px;
-  padding: 35px;
-}
+}*/
 
 .side_title{
   font-size: 25px;

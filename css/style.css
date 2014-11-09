@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+} 
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+h1{
+  font-size: 100px;
+  font-style: Ubuntu; 
+  text-align: center;
+  color: white;
+  position: relative;
+  property-name duration timing-function delay*/
+  -webkit-transition: top .2s linear;*/
+  /*transition: top .2s linear;*/
+  -webkit-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+h1:hover{
+  color: red;
+  top: 5px;
+}
+
+header > #sub_heading{
+  padding: 35px;
+  font-size: 25px;
+  text-align: center;
+}
+
+a:hover{
+  background-color: green;
+}
+
+body{
+  background-image: url("http://www.bhmpics.com/walls/planet_night_moon_stars_and_nebula-wide.jpg");
+  background-repeat: repeat;
+  color: white;
+  font-size: 20px;
+}
+
+nav ul#main_nav{
+  text-align: center;
+}
+
+nav ul#main_nav li.nav_item,
+nav ul#main_nav li.active a{
+  color: white;
+  display: inline;
+  padding: 5px;
+}
+
+nav > #main_nav > li.nav_item > a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul#main_nav > li > ul#sub_nav{
+ position: relative;
+ left: 182px;
+}
+
+nav ul#main_nav > li > ul#sub_nav:hover li{
+  display: inline;
+}
+
+nav > ul#main_nav > li.nav_item.has_dropdown > ul#sub_nav{
+  display: none;
+  color: white;
+}
+
+
+nav > ul#main_nav > li.nav_item.has_dropdown > ul#sub_nav:hover{
+  visibility: initial;
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul#main_nav > li.nav_item.has_dropdown:hover > ul#sub_nav{
+  display: block;
+  text-decoration: none;
+}
+
+nav > ul#main_nav > li.nav_item.has_dropdown:hover > ul#sub_nav li{
+  display: block;
+  text-decoration: none;
+}
+
+nav > ul#main_nav li ul a{
+  color: white;
+  text-decoration: none;
+}
+
+p{
+  padding: 5px;
+  color: white;
+}
+
+.section_title{
+  font-size: 25px;
+}
+
+section#main_content,footer,#side_content{
+  position: relative;
+  top: 30px;
+  padding: 35px;
+}
+
+.side_title{
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

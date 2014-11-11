@@ -1,0 +1,3 @@
+nav > #main_nav > .nav_item > a{
+  text-decoration: none;
+}

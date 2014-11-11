@@ -140,11 +140,12 @@ nav > ul#main_nav li ul a{
 
 p{
   color: white;
+  margin-bottom: 25px;
 }
 
 .section_title{
   font-size: 25px;
-
+  margin: 10px 0;
 }
 
 #float_things{
@@ -159,6 +160,7 @@ section#main_content{
   float: left;
   width: 60%;
   box-sizing: border-box;
+  padding-right: 25px;
 }
 
 aside#side_content{
@@ -175,6 +177,7 @@ aside#side_content{
 
 .side_title{
   font-size: 25px;
+  margin: 10px 0;
 }
 
 /* MOBILE ONLY */
